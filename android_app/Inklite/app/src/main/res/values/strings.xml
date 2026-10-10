@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inklite</string>
+    <string name="app_title">INKLITE\nA Digital Minimalism System Prototype</string>
+    <string name="camera_permission_denied">Camera permission denied. Grant it in Settings, then retry.</string>
+    <string name="camera_rear_preview">Rear camera preview</string>
+    <string name="camera_preview_description">Camera preview</string>
+    <string name="hand_show_one">Show one hand to detect 21 landmarks.</string>
+    <string name="landmarks_description">Tracked hand landmarks</string>
+    <string name="rotation_enable">Enable CW / CCW recognition</string>
+    <string name="rotation_invert">Reverse rotation direction</string>
+    <string name="volume_key_label">Volume key for TAP</string>
+    <string name="last_input_none">Last input: —</string>
+    <string name="input_instructions">Volume = confirm. Rotate one hand around its palm center: CW = next, CCW = back. Pause between rotations.</string>
+    <string name="camera_retry">Start / retry camera</string>
+    <string name="camera_starting">Starting camera and hand detection…</string>
+    <string name="hand_none">No hand detected</string>
+    <plurals name="hand_detected">
+        <item quantity="one">One hand detected: %1$d landmark</item>
+        <item quantity="other">One hand detected: %1$d landmarks</item>
+    </plurals>
+    <string name="hand_multiple">Show only one hand</string>
+    <string name="camera_unavailable">Configured camera is unavailable</string>
+    <string name="camera_front_testing">Front camera (testing)</string>
+    <string name="camera_rear_ready">Rear camera ready</string>
+    <string name="camera_bind_failed">Camera failed: %1$s. Tap retry camera.</string>
+    <string name="camera_analysis_failed">Hand detection failed: %1$s. Tap retry camera.</string>
+    <string name="camera_native_unavailable">MediaPipe could not load on this device. Check ABI/OS compatibility.</string>
+    <string name="input_last">Last input: %1$s · %2$s</string>
+    <string name="input_confirm">Confirm / Enter</string>
+    <string name="input_next">Next / Select</string>
+    <string name="input_back">Back / Return</string>
+    <string-array name="volume_key_modes">
+        <item>Both volume buttons</item>
+        <item>Volume up only</item>
+        <item>Volume down only</item>
+    </string-array>
+    <string name="ble_connect_button">Find and connect to Inklite Pi</string>
+    <string name="ble_disconnect_button">Disconnect BLE</string>
+    <string name="ble_debug_label">Developer BLE test commands</string>
+    <string name="ble_disconnected">BLE disconnected</string>
+    <string name="ble_permissions_denied">Grant Bluetooth permissions to connect. Android 8–11 also require Location permission for BLE discovery.</string>
+    <string name="ble_unavailable">Bluetooth LE hardware is unavailable on this device.</string>
+    <string name="ble_enable_bluetooth">Enable Bluetooth, then connect again.</string>
+    <string name="ble_legacy_location">Enable system Location services for BLE discovery on Android 8–11. Position data is not collected.</string>
+    <string name="ble_scanning">Searching for Inklite Pi…</string>
+    <string name="ble_scan_failed">BLE scan failed: %1$d. Retry the connection.</string>
+    <string name="ble_scan_timeout">No Inklite Pi found. Start its receiver and retry.</string>
+    <string name="ble_connecting">Connecting to Inklite Pi…</string>
+    <string name="ble_discovering">Discovering command service…</string>
+    <string name="ble_discovery_failed">BLE service discovery failed. Reconnect.</string>
+    <string name="ble_discovery_timeout">BLE service discovery timed out. Reconnect.</string>
+    <string name="ble_characteristic_missing">The expected writable Inklite command service was not found.</string>
+    <string name="ble_ready">BLE connected. TAP / CW / CCW ready.</string>
+    <string name="ble_sent">BLE sent: %1$s</string>
+    <string name="ble_disconnected_status">BLE disconnected (status %1$d). Reconnect to continue.</string>
+    <string name="ble_write_failed">BLE write failed (status %1$d). Delivery may be unknown; reconnect.</string>
+    <string name="ble_connect_failed">BLE connection could not start.</string>
+    <string name="ble_connect_timeout">BLE connection timed out. Reconnect.</string>
+    <string name="ble_write_not_started">BLE write could not start. Reconnect.</string>
+    <string name="ble_write_timeout">BLE write timed out. Delivery is unknown; reconnect. Commands are not replayed.</string>
+    <string name="ble_queue_full">BLE command queue is full; the newest input was dropped.</string>
+    <string name="ble_operation_failed">BLE failed: %1$s. Check Bluetooth and permissions, then reconnect.</string>
+</resources>

@@ -1,0 +1,8 @@
+* text=auto
+*.kt text eol=lf
+*.kts text eol=lf
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+*.jar binary
+*.task binary
+third_party/waveshare_3in97/lib/waveshare_epd/*.py -text

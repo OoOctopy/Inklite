@@ -1,0 +1,11 @@
+{
+  "ADB_PATH": "adb",
+  "DEVICE_SERIAL": null,
+  "INKLITE_PACKAGE": "com.inklite.app",
+  "INKLITE_ACTIVITY": "com.inklite.app/.MainActivity",
+  "CHECK_INTERVAL": 0.75,
+  "ADB_TIMEOUT": 10.0,
+  "RETRY_INTERVAL": 3.0,
+  "BLOCK_COOLDOWN": 5.0,
+  "WHITELIST_PATH": "whitelist.json"
+}

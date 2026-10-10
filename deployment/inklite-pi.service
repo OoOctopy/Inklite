@@ -1,0 +1,16 @@
+[Unit]
+Description=Inklite BLE and e-paper prototype
+After=bluetooth.service
+Wants=bluetooth.service
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/inklite
+ExecStart=/opt/inklite/.venv/bin/python -m raspberry_pi.ble_receiver --display hardware
+Environment=PYTHONUNBUFFERED=1
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=45
+
+[Install]
+WantedBy=multi-user.target

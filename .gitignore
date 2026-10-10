@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.gradle/
+.kotlin/
+.cxx/
+**/build/
+*.apk
+# Keep the explicitly requested prebuilt prototype APK.
+!/apk/*.apk
+*.aab
+*.jks
+*.keystore
+local.properties
+config.local.json
+*.log
+dist/
+work/

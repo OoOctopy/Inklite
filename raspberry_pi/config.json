@@ -1,0 +1,20 @@
+{
+  "ADAPTER": "hci0",
+  "ADVERTISING_NAME": "Inklite",
+  "SERVICE_UUID": "72fbb2cc-949e-4a4e-9c23-03f50a0798cb",
+  "COMMAND_CHARACTERISTIC_UUID": "10fc5a67-f00e-4d52-94c2-673a573b6722",
+  "REGISTER_TIMEOUT": 10.0,
+  "PAGES": ["home", "focus", "timer", "status"],
+  "TIMER_MINUTES": 25,
+  "DISPLAY_MODE": "mock",
+  "WIDTH": 800,
+  "HEIGHT": 480,
+  "ROTATION": 0,
+  "ASSETS_PATH": "../assets",
+  "MOCK_OUTPUT_DIR": "../work/mock_display",
+  "DRIVER_PATH": "../third_party/waveshare_3in97/lib",
+  "DRIVER_MODULE": "waveshare_epd.epd3in97",
+  "MIN_REFRESH_INTERVAL": 4.0,
+  "BUSY_TIMEOUT": 15.0,
+  "SHUTDOWN_TIMEOUT": 40.0
+}

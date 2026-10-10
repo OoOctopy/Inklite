@@ -1,0 +1,20 @@
+{
+  "revision": "86aa9932f471a50157cf02fafadc2c1b4a965449",
+  "files": [
+    {
+      "file": "__init__.py",
+      "url": "https://raw.githubusercontent.com/waveshareteam/e-Paper/86aa9932f471a50157cf02fafadc2c1b4a965449/E-paper_Separate_Program/3in97_e-Paper/RaspberryPi_JetsonNano/python/lib/waveshare_epd/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "epdconfig.py",
+      "url": "https://raw.githubusercontent.com/waveshareteam/e-Paper/86aa9932f471a50157cf02fafadc2c1b4a965449/E-paper_Separate_Program/3in97_e-Paper/RaspberryPi_JetsonNano/python/lib/waveshare_epd/epdconfig.py",
+      "sha256": "e53e361f5061b3a62ca143001e20afc530593035556addd57ecd4dbf815ec9f3"
+    },
+    {
+      "file": "epd3in97.py",
+      "url": "https://raw.githubusercontent.com/waveshareteam/e-Paper/86aa9932f471a50157cf02fafadc2c1b4a965449/E-paper_Separate_Program/3in97_e-Paper/RaspberryPi_JetsonNano/python/lib/waveshare_epd/epd3in97.py",
+      "sha256": "2e6519ace4a972193c285f15e8ab47679ff34e2e523bcda7d28c42ad0d8ceba9"
+    }
+  ]
+}
