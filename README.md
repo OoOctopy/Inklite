@@ -12,9 +12,9 @@ Inklite reduces information overload while preserving essential smartphone conne
 
 **Validation:** 90 automated tests passed (22 ADB, 28 Android, 40 Pi/UI/display); the Android build, APK signature and Lint checks passed with zero Lint errors. Physical camera, BLE radio and SPI acceptance is still pending.
 
-![Inklite monochrome UI rendered by the mock backend](assets/screen-preview.png)
+![图为软件模拟渲染效果](assets/screen-preview.png)
 
-*Actual output of the software mock renderer. This is not a photograph or evidence of a physical screen test.*
+图为软件模拟渲染效果
 
 ## 2. System Architecture
 
